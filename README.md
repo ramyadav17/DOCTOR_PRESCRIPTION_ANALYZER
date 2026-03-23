@@ -8,7 +8,7 @@ This project aims to analyze doctor prescriptions by extracting meaningful medic
 
 ## Features
 - OCR-based Text Extraction from prescription images
-🧹 Text Preprocessing & Cleaning (lowercasing, normalization)
+- Text Preprocessing & Cleaning (lowercasing, normalization)
 🔍 Regex-based Information Extraction
 Dosage
 Frequency
