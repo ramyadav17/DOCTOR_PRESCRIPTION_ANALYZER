@@ -14,9 +14,9 @@ This project aims to analyze doctor prescriptions by extracting meaningful medic
   - Frequency
   - Timing
   - Duration
-💊 Medicine Name Detection using dictionary matching
-🤖 ML Classification (TF-IDF + Logistic Regression)
-DO
-DONT
-WARNING
-📄 Structured Output Generation
+- Medicine Name Detection using dictionary matching
+- ML Classification (TF-IDF + Logistic Regression)
+  - DO
+  - DONT
+  - WARNING
+- Structured Output Generation
