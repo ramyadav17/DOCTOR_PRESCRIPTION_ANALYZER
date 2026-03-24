@@ -25,17 +25,17 @@ This project aims to analyze doctor prescriptions by extracting meaningful medic
 
 ## System Pipeline
 Prescription Image
-        ↓
+           
 OCR (Tesseract)
-        ↓
+        
 Text Cleaning
-        ↓
+        
 Regex Extraction
-        ↓
+        
 Medicine Dictionary Matching
-        ↓
+        
 TF-IDF Vectorization
-        ↓
+        
 ML Classification
-        ↓
+        
 Structured Output
