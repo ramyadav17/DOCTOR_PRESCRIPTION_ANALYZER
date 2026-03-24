@@ -23,7 +23,7 @@ This project aims to analyze doctor prescriptions by extracting meaningful medic
 
 --------------------------
 
-System Pipeline
+## System Pipeline
 Prescription Image
         ↓
 OCR (Tesseract)
