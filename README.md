@@ -20,3 +20,22 @@ This project aims to analyze doctor prescriptions by extracting meaningful medic
   - DONT
   - WARNING
 - Structured Output Generation
+
+--------------------------
+
+System Pipeline
+Prescription Image
+        ↓
+OCR (Tesseract)
+        ↓
+Text Cleaning
+        ↓
+Regex Extraction
+        ↓
+Medicine Dictionary Matching
+        ↓
+TF-IDF Vectorization
+        ↓
+ML Classification
+        ↓
+Structured Output
