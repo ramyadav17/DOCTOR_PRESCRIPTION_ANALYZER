@@ -1,4 +1,4 @@
-# Doctor Prescription Analyzer using OCR and N
+# Doctor Prescription Analyzer using OCR and NLP
 
 ## Overview
 
