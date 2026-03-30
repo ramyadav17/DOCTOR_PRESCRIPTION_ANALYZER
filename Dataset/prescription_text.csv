@@ -1,0 +1,130 @@
+prescription_text,label
+"Tab Paracetamol 500mg BD after meals 3 days",medication_instruction
+"Tab Paracetamol 500mg SOS for fever",medication_instruction
+"Tab Brufen 400mg BD after meals",medication_instruction
+"Tab Brufen 600mg TDS after meals",medication_instruction
+"Avoid cold drinks during fever",DONT
+"Do not exceed recommended dose",WARNING
+"Take rest and drink plenty of fluids",DO
+"Tab Dolo 650mg BD after meals",medication_instruction
+"Avoid alcohol while taking painkillers",DONT
+"Tab Levocetirizine 5mg OD at night",DO
+"Tab Montelukast OD at night",DO
+"Avoid cold beverages",DONT
+"Steam inhalation twice daily",DO
+"Do not drive after taking cough syrup",WARNING
+"Tab Sinarest BD after meals",medication_instruction
+"Avoid smoking during cold",DONT
+"Tab Allegra OD daily",medication_instruction
+"Tab Allegra M OD at night",medication_instruction
+"Avoid dust exposure",DONT
+"Avoid pollen and smoke",DONT
+"Do not take on empty stomach",WARNING
+"Tab Levocetirizine BD",DO
+"Apply calamine lotion locally",DO
+"Avoid scratching skin",WARNING
+"Consult doctor if allergy persists",WARNING
+"Tab Pantoprazole OD before breakfast",medication_instruction
+"Tab Omeprazole OD before breakfast",medication_instruction
+"Tab Rantac BD before meals",DO
+"Avoid spicy food",DONT
+"Avoid oily food",DONT
+"Do not lie down immediately after meals",WARNING
+"Eat small frequent meals",DO
+"Tab Gelusil after meals",DO
+"Avoid alcohol",DONT
+"Consult doctor if pain persists",WARNING
+"Tab Glycomet BD after meals",DO
+"Tab Glimepiride OD before breakfast",DO
+"Monitor blood sugar regularly",WARNING
+"Do not skip meals",WARNING
+"Avoid sugary foods",DONT
+"Exercise regularly",DO
+"Consult doctor if hypoglycemia occurs",WARNING
+"Tab Amlodipine OD daily",medication_instruction
+"Tab Telmisartan OD in morning",medication_instruction
+"Tab Losartan OD daily",DO
+"Tab Atenolol OD in morning",medication_instruction
+"Monitor blood pressure daily",WARNING
+"Avoid salty food",DONT
+"Do not miss doses",WARNING
+"Avoid smoking",DONT
+"Consult doctor if dizziness occurs",WARNING
+"Cap Amoxicillin 250mg TDS after meals 5 days",medication_instruction
+"Cap Amoxicillin 500mg TDS after meals 5 days",medication_instruction
+"Tab Ciprofloxacin BD after meals 5 days",medication_instruction
+"Complete full course of antibiotics",WARNING
+"Do not stop medicine early",WARNING
+"Avoid alcohol during antibiotic course",DONT
+"Tab Cefixime BD after meals 5 days",DO
+"Consult doctor if rash appears",WARNING
+"Take probiotics if advised",DO
+"Tab A to Z Woman OD daily",medication_instruction
+"Tab Absolut Woman OD daily",medication_instruction
+"Tab Iron Folic Acid OD daily",DO
+"Take after meals",DO
+"Avoid tea or coffee with iron",DONT
+"Continue supplement for 30 days",WARNING
+"Consult doctor if nausea occurs",WARNING
+"Drink plenty of water",DO
+"Do not overdose supplements",WARNING
+"Maintain balanced diet",DO
+"Tab Alfusin OD at bedtime",DO
+"Tab Tamsulosin OD at night",DO
+"Drink plenty of water",DO
+"Avoid holding urine",DONT
+"Do not drive after first dose",WARNING
+"Consult doctor if dizziness occurs",WARNING
+"Tab Finasteride OD daily",DO
+"Avoid alcohol",DONT
+"Monitor urinary symptoms",WARNING
+"Follow up after 2 weeks",WARNING
+"Take medicine exactly as prescribed",WARNING
+"Do not crush or chew tablet",WARNING
+"Store medicine in cool dry place",WARNING
+"Keep medicines away from children",WARNING
+"Avoid self medication",DONT
+"Consult doctor if symptoms worsen",WARNING
+"Do not take expired medicines",WARNING
+"Follow dietary advice strictly",WARNING
+"Take medicine with water only",DO
+"Avoid driving if drowsy",WARNING
+"take paracetamol 650 mg once daily",medication_instruction
+"take augmentin 625 mg twice daily",medication_instruction
+"apply ointment on affected area",medication_instruction
+"use inhaler once daily",medication_instruction
+"take tablet after meals",medication_instruction
+"take capsule before food",medication_instruction
+"apply cream twice daily",medication_instruction
+"use drops in both eyes",medication_instruction
+"take syrup 5 ml twice daily",medication_instruction
+"take medicine at bedtime",medication_instruction
+"avoid alcohol",lifestyle_advice
+"avoid smoking",lifestyle_advice
+"avoid driving",lifestyle_advice
+"avoid heavy exercise",lifestyle_advice
+"avoid junk food",lifestyle_advice
+"avoid late night sleep",lifestyle_advice
+"avoid oily food",lifestyle_advice
+"avoid stress",lifestyle_advice
+"take plenty of fluids",dietary_advice
+"drink warm water",dietary_advice
+"eat light meals",dietary_advice
+"follow low salt diet",dietary_advice
+"increase protein intake",dietary_advice
+"take soft diet",dietary_advice
+"eat fresh fruits",dietary_advice
+"drink coconut water",dietary_advice
+"do not drive after taking medicine",warning
+"do not operate machinery",warning
+"do not skip doses",warning
+"take medicine carefully",warning
+"report side effects immediately",warning
+"do not overdose",warning
+"avoid self medication",warning
+"review after 5 days",follow_up
+"follow up after 1 week",follow_up
+"visit doctor again",follow_up
+"schedule next appointment",follow_up
+"come back if symptoms persist",follow_up
+"consult again if no improvement",follow_up
