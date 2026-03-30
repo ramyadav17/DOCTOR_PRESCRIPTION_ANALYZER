@@ -11,7 +11,7 @@ from backend import (
 
 st.set_page_config(page_title="Prescription Analyzer", layout="wide")
 
-st.title("💊 Prescription Analyzer")
+st.title("Prescription Analyzer")
 st.markdown("Upload a prescription image and extract structured medical data.")
 
 # Sidebar
@@ -19,7 +19,7 @@ st.sidebar.header("⚙️ Settings")
 show_steps = st.sidebar.checkbox("Show Pipeline Steps", True)
 
 # Upload
-uploaded_file = st.file_uploader("📤 Upload Prescription Image", type=["png", "jpg", "jpeg"])
+uploaded_file = st.file_uploader("Upload Prescription Image", type=["png", "jpg", "jpeg"])
 
 if uploaded_file:
     image = Image.open(uploaded_file)
@@ -36,35 +36,35 @@ if uploaded_file:
 
     # ===== PIPELINE =====
     with col2:
-        st.subheader("🔍 Processing Pipeline")
+        st.subheader("Processing Pipeline")
 
         # OCR
         text = extract_text_from_image(image_path)
 
         if show_steps:
-            st.markdown("### 1️⃣ OCR Output")
+            st.markdown("### OCR Output")
             st.code(text)
 
         # Structured Extraction
         structured_data = extract_structured_data(text)
 
         if show_steps:
-            st.markdown("### 2️⃣ Structured Extraction")
+            st.markdown("### Structured Extraction")
             st.json(structured_data)
 
         # Classification
         instruction = classify_lines(text)
 
         if show_steps:
-            st.markdown("### 3️⃣ Instruction Classification")
+            st.markdown("### Instruction Classification")
             st.write(instruction)
 
     # ===== FINAL OUTPUT =====
     st.divider()
-    st.subheader("💊 Prescription Summary")
+    st.subheader("Prescription Summary")
 
     # -------- MEDICINES --------
-    st.markdown("### 🧾 Medicines")
+    st.markdown("### Medicines")
 
     if structured_data:
         medicines = list(set([row["Medicine"] for row in structured_data]))
@@ -89,7 +89,7 @@ if uploaded_file:
         st.warning("No medicines detected")
 
     # -------- TABLE --------
-    st.markdown("### 💉 Prescription Details")
+    st.markdown("### Prescription Details")
 
     if structured_data:
         df = pd.DataFrame(structured_data)
@@ -98,7 +98,7 @@ if uploaded_file:
         st.info("No structured data extracted")
 
     # -------- INSTRUCTION --------
-    st.markdown("### 🧠 Instruction Type")
+    st.markdown("### Instruction Type")
     if instruction:
         df_instr = pd.DataFrame(instruction)
 
